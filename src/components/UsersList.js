@@ -7,6 +7,8 @@ import Button from "./Button";
 function UsersList(props) {
     const [isLoadingUsers, setIsLoadingUsers] = useState(false)
     const [loadingUsersError, setLoadingUsersError] = useState(null)
+    const [isCreatingUser, setIsCreatingUser] = useState(false)
+    const [creatingUserError, setCreatingUserError] = useState(null)
 
     const dispatch = useDispatch();
     const { data } = useSelector((state) => state.users);
@@ -20,7 +22,11 @@ function UsersList(props) {
     }, [dispatch]);
 
     const handleUserAdd = () => {
-        dispatch(addUser());
+        setIsCreatingUser((true))
+        dispatch(addUser())
+            .unwrap()
+            .catch(err => setCreatingUserError(err))
+            .finally(() => setIsCreatingUser(false ))
     }
 
     if (isLoadingUsers === true) {
@@ -43,9 +49,12 @@ function UsersList(props) {
         <div>
             <div className='flex flex-row justify-between m-3'>
                 <h1 className='m-2 text-xl'>Users</h1>
-                <Button onClick={handleUserAdd}>
-                    + Add User
-                </Button>
+                {
+                    isCreatingUser
+                    ? 'creating user..'
+                    : <Button onClick={handleUserAdd}>+ Add User</Button>
+                }
+                {creatingUserError && 'Error creating user..'}
             </div>
             {renderedUsers}
         </div>
