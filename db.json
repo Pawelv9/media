@@ -1,124 +1,16 @@
 {
   "users": [
     {
-      "id": "a989",
-      "name": "Gayle Medhurst"
-    },
-    {
-      "id": "4fe1",
-      "name": "Steven Prohaska"
-    },
-    {
       "id": "dc59",
       "name": "Ricardo Gottlieb"
-    },
-    {
-      "id": "b921",
-      "name": "Mrs. Rebecca Larson"
-    },
-    {
-      "id": "fb40",
-      "name": "Dominic Wiza"
-    },
-    {
-      "id": "1f61",
-      "name": "Ms. Natasha Botsford III"
     },
     {
       "id": "5c9a",
       "name": "Fannie Schiller"
     },
     {
-      "id": "fbb6",
-      "name": "Sophie Waters"
-    },
-    {
       "id": "70ff",
       "name": "Charlie Klein PhD"
-    },
-    {
-      "id": "ff97",
-      "name": "Lorena Lowe"
-    },
-    {
-      "id": "0c5c",
-      "name": "Geraldine Kris"
-    },
-    {
-      "id": "0f7c",
-      "name": "Boyd Schuppe"
-    },
-    {
-      "id": "199d",
-      "name": "Sally D'Amore"
-    },
-    {
-      "id": "2458",
-      "name": "Oliver Doyle"
-    },
-    {
-      "id": "d401",
-      "name": "Natalie VonRueden"
-    },
-    {
-      "id": "6a24",
-      "name": "Kristopher Bayer"
-    },
-    {
-      "id": "c5f7",
-      "name": "Bonnie Durgan"
-    },
-    {
-      "id": "e82d",
-      "name": "Laura Zulauf"
-    },
-    {
-      "id": "70be",
-      "name": "Ernest Wuckert"
-    },
-    {
-      "id": "8a1e",
-      "name": "Doyle Kemmer"
-    },
-    {
-      "id": "46da",
-      "name": "Esther Buckridge"
-    },
-    {
-      "id": "876e",
-      "name": "Bennie Welch V"
-    },
-    {
-      "id": "5786",
-      "name": "Miriam Ortiz"
-    },
-    {
-      "id": "aa4d",
-      "name": "Garry Yost IV"
-    },
-    {
-      "id": "a9a9",
-      "name": "Earl Hintz V"
-    },
-    {
-      "id": "7a46",
-      "name": "Christy Parker"
-    },
-    {
-      "id": "f959",
-      "name": "Sadie Weimann"
-    },
-    {
-      "id": "8a3d",
-      "name": "Miss Antonio Greenholt"
-    },
-    {
-      "id": "d19d",
-      "name": "Ollie Kris V"
-    },
-    {
-      "id": "7b25",
-      "name": "Joey Hammes"
     }
   ],
   "albums": [],
