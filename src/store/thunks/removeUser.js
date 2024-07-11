@@ -6,4 +6,4 @@ const response = await axios.delete(`http://localhost:3005/users/${user.id}`)
     return response.data
 });
 
-export { removeUser };
+export { remo   veUser };
