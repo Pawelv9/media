@@ -3,6 +3,7 @@ import Button from './Button';
 import { removeUser } from '../store';
 import { useThunk } from '../hooks/use-thunk';
 import ExpendablePanel from "./ExpendablePanel";
+import AlbumsList from "./AlbumsList";
 
 function UsersListItem({ user }) {
     const [doRemoveUser, isLoading, error] = useThunk(removeUser);
@@ -12,7 +13,7 @@ function UsersListItem({ user }) {
     };
 
     const header = <>
-        <Button className='mr-3' loading={isLoading} onClick={handleClick}>
+        <Button className='mr-3 ' loading={isLoading} onClick={handleClick}>
             <GoTrashcan />
         </Button>
         {error && <div>Error deleting user.</div>}
@@ -21,7 +22,7 @@ function UsersListItem({ user }) {
 
     return (
     <ExpendablePanel header={header}>
-        Content
+        <AlbumsList user={user} />
     </ExpendablePanel>
     );
 }
