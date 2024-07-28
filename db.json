@@ -13,6 +13,12 @@
       "name": "Charlie Klein PhD"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 5,
+      "title": "Hiking",
+      "userId": "dc59"
+    }
+  ],
   "photos": []
 }
