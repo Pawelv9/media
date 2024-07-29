@@ -15,9 +15,14 @@
   ],
   "albums": [
     {
-      "id": 5,
+      "id": "5",
       "title": "Hiking",
       "userId": "dc59"
+    },
+    {
+      "id": "8d1c",
+      "userId": "dc59",
+      "title": "Modern Wooden Mouse"
     }
   ],
   "photos": []
