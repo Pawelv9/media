@@ -15,29 +15,19 @@
   ],
   "albums": [
     {
-      "id": "5",
-      "title": "Hiking",
-      "userId": "dc59"
-    },
-    {
       "id": "8d1c",
       "userId": "dc59",
       "title": "Modern Wooden Mouse"
     },
     {
-      "id": "c88d",
-      "userId": "dc59",
-      "title": "Oriental Frozen Tuna"
-    },
-    {
-      "id": "f643",
-      "userId": "dc59",
-      "title": "Intelligent Plastic Shoes"
-    },
-    {
       "id": "35c1",
       "userId": "dc59",
       "title": "Gorgeous Frozen Gloves"
+    },
+    {
+      "id": "b1e4",
+      "userId": "dc59",
+      "title": "Awesome Plastic Sausages"
     }
   ],
   "photos": []
