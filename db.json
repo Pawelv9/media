@@ -11,6 +11,10 @@
     {
       "id": "70ff",
       "name": "Charlie Klein PhD"
+    },
+    {
+      "id": "4288",
+      "name": "Irving Sanford II"
     }
   ],
   "albums": [
@@ -28,7 +32,73 @@
       "id": "b1e4",
       "userId": "dc59",
       "title": "Awesome Plastic Sausages"
+    },
+    {
+      "id": "79bb",
+      "userId": "dc59",
+      "title": "Elegant Plastic Sausages"
+    },
+    {
+      "id": "1cde",
+      "userId": "70ff",
+      "title": "Bespoke Plastic Ball"
+    },
+    {
+      "id": "2e5f",
+      "userId": "70ff",
+      "title": "Unbranded Granite Sausages"
+    },
+    {
+      "id": "371e",
+      "userId": "1cde",
+      "title": "Luxurious Granite Hat"
+    },
+    {
+      "id": "9f5f",
+      "userId": "1cde",
+      "title": "Unbranded Cotton Ball"
+    },
+    {
+      "id": "71be",
+      "userId": "1cde",
+      "title": "Rustic Bronze Pizza"
+    },
+    {
+      "id": "47b4",
+      "userId": "2e5f",
+      "title": "Sleek Frozen Soap"
+    },
+    {
+      "id": "11e8",
+      "userId": "4c88",
+      "title": "Handmade Rubber Fish"
+    },
+    {
+      "id": "655a",
+      "userId": "4c88",
+      "title": "Handmade Bronze Table"
+    },
+    {
+      "id": "6594",
+      "userId": "4288",
+      "title": "Awesome Metal Car"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "4418",
+      "albumId": null,
+      "url": "https://loremflickr.com/150/150/abstract?lock=22616"
+    },
+    {
+      "id": "4bf4",
+      "albumId": null,
+      "url": "https://loremflickr.com/150/150/abstract?lock=45504"
+    },
+    {
+      "id": "9b1c",
+      "albumId": "6594",
+      "url": "https://loremflickr.com/150/150/abstract?lock=75029"
+    }
+  ]
 }
